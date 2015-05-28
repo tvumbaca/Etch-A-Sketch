@@ -1,0 +1,84 @@
+/*css resets*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+	text-align: center;
+}
+
+#header {
+	border-bottom: 2px solid #545464;
+	padding: 25px;
+	margin-bottom: 12px;
+	background-color: #FF9900;
+	box-shadow: 0px 5px 5px 0px #AAAAAA;
+	font: bold 30px  helvetica, arial, sans-serif;
+	color: #545464;
+}
+
+#container {
+	border: solid 4px #E62E00;
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+
+.gridDiv {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	background-color: rgb(209, 233, 246);
+	padding: 0px;
+	margin: 0px;
+	border: solid 1px #FFF;
+	float: left;
+	/*display: inline-block;*/
+	height: 100%;
+}
+
+.divHover {
+	background-color: #76EE00;	
+}
+
+button {
+	border: solid 1px #B3B3BC;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 12px;
+	background-color: #E0E0EB;
+	box-shadow: 3px 3px 3px 0px #C3C3C8;
+}
+#footer {
+	display: inline-block;
+	padding: 0px;
+	margin: 15px;
+	font: 14px helvetica, arial, sans-serif;
+	color: #545464;
+}
+
+a {
+	text-decoration: none;
+	color: #8282A4;
+}
+a:hover {
+	text-decoration: underline;
+	color: #1F1F5C;
+}
